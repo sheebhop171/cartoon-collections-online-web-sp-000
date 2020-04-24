@@ -1,9 +1,15 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+#names = ["Shelby", "Taylor", "Eric"]
+
+def roll_call_dwarves(names)
+  names.each.with_index(1) do |names,i|
+    puts "#{i}. #{names}"
+  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planteer_calls)
+  planteer_calls.collect.first.upcase do |calls|
+
+  end
 end
 
 def long_planeteer_calls# code an argument here
