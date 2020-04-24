@@ -27,4 +27,3 @@ if find_the_cheese.include?(false)
   else
     true
   end
-end
