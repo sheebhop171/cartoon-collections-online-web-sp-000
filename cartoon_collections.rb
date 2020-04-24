@@ -22,6 +22,5 @@ def find_the_cheese(cheese_types)
       if cheese_types.detect {|i| i}
         cheese_types
       else
-        nil
     end
 end
