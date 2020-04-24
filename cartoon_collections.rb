@@ -6,6 +6,7 @@ def roll_call_dwarves(names)
   end
 end
 
+planteer_calls = ["earth", "wind", "fire"]
 def summon_captain_planet(planteer_calls)
   planteer_calls.collect {|calls| calls.upcase + "!"}
 end
