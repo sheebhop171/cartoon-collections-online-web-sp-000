@@ -9,7 +9,7 @@ end
 # planteer_calls = ["earth", "wind", "fire"]
 
 def summon_captain_planet(planteer_calls)
-  planteer_calls.collect {|calls| calls.upcase + "!"}
+  planteer_calls.collect(&:capitalize) {|calls| calls.upcase + "!"}
 end
 
 def long_planeteer_calls# code an argument here
